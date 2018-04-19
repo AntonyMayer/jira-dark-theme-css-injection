@@ -1,0 +1,60 @@
+/* Default settings */
+
+#page * {
+  background: #333;
+  color: #738f73;
+  text-shadow: none;
+}
+
+/* Highlight focused jira ticket */
+
+#page li.focused,
+#page li.focused a,
+#page li.focused span {
+  background: blue;
+  color: #fff;
+}
+
+#page li.focused {
+    border: 1px solid #fff;
+}
+
+/* Highlight some key elements by applying white color */
+
+#page .toggle-title,
+#page #summary-val,
+#page .user-avatar{
+  color: #ccc;
+}
+
+/* Highlight criticals */
+
+#page #descriptionmodule .toggle-title,
+#page #priority-val,
+#page #components-field a {
+  color: #f74902;
+}
+
+/* Dropdown arrows for filters */
+
+#page .criteria-list .drop-arrow:after, 
+#page .view-selector .drop-arrow:after {
+  border-top-color: #ccc;
+}
+
+/* Scroll bar customization */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #738f73; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
