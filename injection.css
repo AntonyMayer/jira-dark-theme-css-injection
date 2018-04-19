@@ -29,11 +29,12 @@
   color: #ccc;
 }
 
-/* Highlight description */
+/* Highlight criticals */
 
 #page #descriptionmodule .toggle-title,
 #page #priority-val,
-#page #components-field a {
+#page #components-field a,
+#page #assignee-val span {
   color: #f74902;
 }
 
