@@ -4,13 +4,15 @@
   background: #333;
   color: #738f73;
   text-shadow: none;
+  border-radius: 0; 
 }
 
 /* Highlight focused jira ticket */
 
 #page li.focused,
 #page li.focused a,
-#page li.focused span {
+#page li.focused span,
+#page #opsbar-opsbar-transitions * {
   background: blue;
   color: #fff;
 }
@@ -27,7 +29,7 @@
   color: #ccc;
 }
 
-/* Highlight criticals */
+/* Highlight description */
 
 #page #descriptionmodule .toggle-title,
 #page #priority-val,
